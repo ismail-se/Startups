@@ -1,0 +1,64 @@
+main {
+  color: black;
+  height: 30rem;
+}
+.main {
+  color: white;
+  background-color: rgb(0, 129, 129);
+  padding: 2rem;
+  height: 28rem;
+}
+.main .hero h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.main .hero p {
+  width: 25rem;
+  font-size: 1.2rem;
+}
+
+.maintopic {
+  display: flex;
+  padding: 2rem;
+}
+.maintopic .topics {
+  background-color: #cad3df;
+  width: 30rem;
+}
+.maintopic .topics .heading {
+  background-color: #51657f;
+  color: WHITE;
+  padding: 1rem;
+}
+.maintopic .topics ul {
+  list-style: none;
+}
+.maintopic .topics ul li {
+  padding: 1rem;
+  color: rgb(85, 85, 85);
+}
+.maintopic .topics ul li:hover {
+  padding: 1rem;
+  color: black;
+  background-color: #e0e4ea;
+  font-weight: bold;
+}
+
+.topic2 {
+  padding: 1rem;
+}
+.topic2 h1 {
+  font-size: 3rem;
+}
+.topic2 p {
+  margin-top: 1rem;
+  color: white;
+  padding: 2rem;
+  height: 15rem;
+}
+.heroImg {
+  width: 50rem;
+  position: absolute;
+  top: 150px;
+  right: 5rem;
+}

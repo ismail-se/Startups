@@ -1,0 +1,29 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar {
+    width: 20rem;
+    height: 100vh;
+    position: fixed;
+    background-color: #2A313D;
+    z-index: 1000;
+    margin-left: -22rem;
+    transition: all 0.5s ease;
+    top: 4.9rem;
+
+    ul {
+        list-style: none;
+        color: white;
+
+        li {
+            padding: 1rem;
+        }
+        .heading {
+            background-color: #404C5D;
+        }
+    }
+}
+.sidebarOpen{
+    margin-left: 0rem;
+}

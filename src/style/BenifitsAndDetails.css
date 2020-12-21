@@ -1,0 +1,44 @@
+.service {
+  background-color: #F6F4F0;
+  color: #434953;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem;
+  text-align: center;
+}
+
+.service h1 {
+  font-size: 2.5rem;
+}
+
+.service .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem 0;
+}
+
+.service .items .item {
+  margin: 1.5rem;
+}
+
+.service .items .item h2 {
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
+
+.service .items .item p {
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=BenifitsAndDetails.css.map */
